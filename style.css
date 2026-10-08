@@ -1,0 +1,45 @@
+
+
+
+
+.course-card {
+    background-color: rgb(238, 12, 12);
+    padding: 100px;
+    border: 15px solid black;
+    margin: 1%;
+    text-align: center;
+
+}
+
+h1 {
+    background-color: rgb(223, 19, 19);
+    border: 2px solid black;
+    margin: 10px;
+
+}
+
+
+p {
+    font-size: 18px;
+    color: rgb(76, 19, 209);
+}
+
+.course-info {
+    font-weight: bolder;
+}
+
+#register-button {
+    color: blueviolet;
+    background-color: aqua;
+    font-size: larger;
+    border-color: darkolivegreen;
+    
+}
+
+.mini-card {
+    background-color: rgb(197, 30, 161);
+    padding: 50px;
+    border: 10px solid black;
+    margin: 45px;
+}
+
