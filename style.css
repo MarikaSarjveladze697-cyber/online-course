@@ -1,45 +1,29 @@
-
-
-
-
-.course-card {
-    background-color: rgb(238, 12, 12);
-    padding: 100px;
-    border: 15px solid black;
-    margin: 1%;
-    text-align: center;
-
+*{
+    padding: 0;
+    box-sizing: border-box
 }
 
-h1 {
-    background-color: rgb(223, 19, 19);
-    border: 2px solid black;
-    margin: 10px;
-
+.parent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+    height: 200px;
+    margin: 0% auto;
+    border: 1px solid black;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+   
 }
 
-
-p {
-    font-size: 18px;
-    color: rgb(76, 19, 209);
-}
-
-.course-info {
-    font-weight: bolder;
-}
-
-#register-button {
-    color: blueviolet;
+.child {
     background-color: aqua;
-    font-size: larger;
-    border-color: darkolivegreen;
+    border: 1px solid black
     
 }
 
-.mini-card {
-    background-color: rgb(197, 30, 161);
-    padding: 50px;
-    border: 10px solid black;
-    margin: 45px;
+.first{
+    align-self:flex-end;
+    justify-self: right;
 }
-
